@@ -1,0 +1,78 @@
+#holder > * {
+    display: block;
+    margin: auto;
+    max-width: 300px;
+    max-height: 300px;
+}
+#holder {
+       border: 10px dashed #ccc;
+       width: 300px;
+       height: 300px;
+       margin: 20px auto;
+}
+#holder.hover {
+  border: 10px dashed #333;
+}
+
+#submitbtn {
+  margin: 10px 10px 10px 0;
+}
+
+#upload-pic {
+    transition: opacity 0.4s ease-in-out;
+    margin: 20px;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+td, th {
+    /*border: 1px solid black;
+    width: 105%;
+    padding: 15px;*/
+
+    min-height: 100px;
+      width: 200px;
+      border: 3px dashed #ccc;
+      margin: 10px;
+      padding: 10px;
+}
+
+table {
+    /*border: 1px solid black;*/
+    padding: 10px;
+    margin: 10px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#table_layout {
+  border: 1px solid black;
+  width: auto;
+  height: auto;
+}
+
+td {
+    width: 15%;
+    height: 100px;
+    /*overflow: hidden;
+    vertical-align: bottom;
+    display: inline-block;
+    white-space: nowrap;*/
+}
+
+td.gallery {
+    width: 80px;
+    height: 45px;
+}
+
+.thumb{
+    height: 100px;
+    width: 150px;
+    padding-left: 10px;
+}
+
+/*.thumb {
+    height: 75px;
+    border: 1px solid #000;
+    margin: 10px 5px 0 0;
+}*/
